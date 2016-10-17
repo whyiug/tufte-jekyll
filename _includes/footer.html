@@ -1,12 +1,17 @@
 <footer>
   <hr class="slender">
   <ul class="footer-links">
-    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
+    <li><a href="mailto:whyiug@gmail.com"><span class="icon-mail"></span></a></li>    
     {% for entry in site.data.social %}
       <li>
-        <a href="{{ entry.link }}"><span class="{{ entry.icon }}"></span></a>
+        <a href="{{ entry.link }}" target="_blank"><span class="{{ entry.icon }}"></span></a>
       </li>
     {% endfor %}  
+    <li>
+    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+      <span class="social fa fa-rss">\</span>
+    </a>
+  </li>
   </ul>
 <div class="credits">
 <span>&copy; {{ site.time | date: '%Y' }} &nbsp;&nbsp;{{site.author | upcase }}</span></br> <br>

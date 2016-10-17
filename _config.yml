@@ -1,14 +1,15 @@
-baseurl: /tufte-jekyll 
-title: Tufte
+url: http://whyiug.github.io
+baseurl: ""
+title: Ray
 subtitle: Content-centric blogging
-author: clay harmon
+author: Young Ray
 simple_search: http://google.com/search
 description: A Jekyll theme for content-rich sites
-name: tufte
+name: whyiug
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
-timezone: America/New_York
+timezone: Asia/Shanghai
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
@@ -24,4 +25,20 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/clayh53.github.com/
+  destination: ~/github/whyiug.github.com/
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+include: [_pages]
+
+gems: [jekyll-paginate, jekyll-seo-tag]
+
+# Comment
+
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : bycode
+    disqus :
+      short_name : bycode
