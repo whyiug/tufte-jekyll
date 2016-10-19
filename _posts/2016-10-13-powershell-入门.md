@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "powershell 入门"
 description: ""
 date: 2016-10-13
