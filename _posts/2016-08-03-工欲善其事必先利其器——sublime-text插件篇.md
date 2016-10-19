@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: full-width
 title: "工欲善其事必先利其器——sublime text插件篇"
 description: ""
 date: 2016-08-03

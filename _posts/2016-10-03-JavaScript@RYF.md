@@ -5,7 +5,7 @@ description: ""
 date: 2016-10-03
 tags: [JavaScript]
 comments: true
-share: true
+share: false
 ---
 
 ## JavaScript简述
